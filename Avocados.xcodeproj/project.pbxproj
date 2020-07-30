@@ -22,6 +22,8 @@
 		03E4CBE224D2A1AE009E03CB /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4CBE124D2A1AE009E03CB /* HeaderData.swift */; };
 		03E4CBE424D2AED5009E03CB /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4CBE324D2AED5009E03CB /* DishesView.swift */; };
 		03E4CBE624D2C41D009E03CB /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4CBE524D2C41D009E03CB /* FactsView.swift */; };
+		03E4CBE824D2C914009E03CB /* FactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4CBE724D2C914009E03CB /* FactsModel.swift */; };
+		03E4CBEA24D2C974009E03CB /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4CBE924D2C974009E03CB /* FactData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		03E4CBE124D2A1AE009E03CB /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		03E4CBE324D2AED5009E03CB /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 		03E4CBE524D2C41D009E03CB /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		03E4CBE724D2C914009E03CB /* FactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsModel.swift; sourceTree = "<group>"; };
+		03E4CBE924D2C974009E03CB /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				03E4CBE124D2A1AE009E03CB /* HeaderData.swift */,
+				03E4CBE924D2C974009E03CB /* FactData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				03E4CBDF24D2A135009E03CB /* HeaderModel.swift */,
+				03E4CBE724D2C914009E03CB /* FactsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,11 +205,13 @@
 				03E4CBD624D28566009E03CB /* AvocadosView.swift in Sources */,
 				03E4CBE024D2A135009E03CB /* HeaderModel.swift in Sources */,
 				03E4CBD824D28593009E03CB /* RipeningStagesView.swift in Sources */,
+				03E4CBE824D2C914009E03CB /* FactsModel.swift in Sources */,
 				03E4CBBB24D2522E009E03CB /* AppDelegate.swift in Sources */,
 				03E4CBDC24D285B9009E03CB /* AppView.swift in Sources */,
 				03E4CBDA24D285A3009E03CB /* SettingsView.swift in Sources */,
 				03E4CBBD24D2522E009E03CB /* SceneDelegate.swift in Sources */,
 				03E4CBBF24D2522E009E03CB /* ContentView.swift in Sources */,
+				03E4CBEA24D2C974009E03CB /* FactData.swift in Sources */,
 				03E4CBE424D2AED5009E03CB /* DishesView.swift in Sources */,
 				03E4CBE224D2A1AE009E03CB /* HeaderData.swift in Sources */,
 				03E4CBE624D2C41D009E03CB /* FactsView.swift in Sources */,
