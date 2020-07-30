@@ -18,6 +18,8 @@
 		03E4CBDA24D285A3009E03CB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4CBD924D285A3009E03CB /* SettingsView.swift */; };
 		03E4CBDC24D285B9009E03CB /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4CBDB24D285B9009E03CB /* AppView.swift */; };
 		03E4CBDE24D295F9009E03CB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4CBDD24D295F9009E03CB /* HeaderView.swift */; };
+		03E4CBE024D2A135009E03CB /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4CBDF24D2A135009E03CB /* HeaderModel.swift */; };
+		03E4CBE224D2A1AE009E03CB /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4CBE124D2A1AE009E03CB /* HeaderData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		03E4CBD924D285A3009E03CB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		03E4CBDB24D285B9009E03CB /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		03E4CBDD24D295F9009E03CB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		03E4CBDF24D2A135009E03CB /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		03E4CBE124D2A1AE009E03CB /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		03E4CBCE24D284A3009E03CB /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				03E4CBE124D2A1AE009E03CB /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 		03E4CBCF24D284B4009E03CB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				03E4CBDF24D2A135009E03CB /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,12 +191,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E4CBD624D28566009E03CB /* AvocadosView.swift in Sources */,
+				03E4CBE024D2A135009E03CB /* HeaderModel.swift in Sources */,
 				03E4CBD824D28593009E03CB /* RipeningStagesView.swift in Sources */,
 				03E4CBBB24D2522E009E03CB /* AppDelegate.swift in Sources */,
 				03E4CBDC24D285B9009E03CB /* AppView.swift in Sources */,
 				03E4CBDA24D285A3009E03CB /* SettingsView.swift in Sources */,
 				03E4CBBD24D2522E009E03CB /* SceneDelegate.swift in Sources */,
 				03E4CBBF24D2522E009E03CB /* ContentView.swift in Sources */,
+				03E4CBE224D2A1AE009E03CB /* HeaderData.swift in Sources */,
 				03E4CBDE24D295F9009E03CB /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
