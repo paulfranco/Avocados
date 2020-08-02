@@ -34,41 +34,21 @@ struct RecipeCardView: View {
                     }
                 )
             VStack(alignment: .leading, spacing: 12) {
-               // TITLE
+                // TITLE
                 Text(recipe.title)
                     .font(.system(.title, design: .serif))
                     .fontWeight(.bold)
                     .foregroundColor(Color("ColorGreenMedium"))
                     .lineLimit(1)
-            // HEADLINE
+                // HEADLINE
                 Text(recipe.headline)
                     .font(.system(.body, design: .serif))
                     .foregroundColor(Color.gray)
                     .italic()
-            // RATES
-                HStack(alignment: .center, spacing: 5) {
-                    ForEach(1...(recipe.rating), id: \.self) {_ in
-                        Image(systemName: "star.fill")
-                            .font(.body)
-                            .foregroundColor(Color.yellow)
-                    }
-                }
+                // RATING
+                RecipeRatingView(recipe: recipe)
                 // COOKING
-                HStack(alignment: .center, spacing: 12) {
-                    HStack(alignment: .center, spacing: 2) {
-                        Image(systemName: "person.2")
-                        Text("Serves: \(recipe.serves)")
-                    }
-                    HStack(alignment: .center, spacing: 2) {
-                        Image(systemName: "clock")
-                        Text("Prep: \(recipe.preparation)")
-                    }
-                    HStack(alignment: .center, spacing: 2) {
-                        Image(systemName: "flame")
-                        Text("Cooking: \(recipe.cooking)")
-                    }                }
-                .font(.footnote)
-                .foregroundColor(Color.gray)
+                RecipeCookingView(recipe: recipe)
             }
             .padding()
             .padding(.bottom, 12)
